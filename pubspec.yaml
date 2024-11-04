@@ -1,0 +1,27 @@
+name: news_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  cached_network_image: ^3.3.1
+  webview_flutter: ^2.8.0
+  webview_flutter_android: ^2.10.4
+  webview_flutter_platform_interface: ^1.9.5
+  webview_flutter_wkwebview: ^2.9.5
+  cupertino_icons: ^1.0.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.4
+
+flutter:
+  uses-material-design: true
